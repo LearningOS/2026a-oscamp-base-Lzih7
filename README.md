@@ -30,6 +30,8 @@ sudo apt-get install -y build-essential gcc-riscv64-linux-gnu qemu-user
 
 第一条更新软件包索引，第二条安装本机编译器、RISC-V 交叉编译器及 QEMU 用户态模拟器。Rust 版本由仓库的 `rust-toolchain.toml` 指定；仓库同时配置了 RISC-V 编译目标、链接器与运行器。
 
+macOS 不提供 `apt-get`。macOS 用户请使用 Linux 虚拟机、Docker、远程 Linux 环境或下文的 GitHub Codespaces；上述命令应在 Ubuntu、WSL2 或 Codespaces 的终端中执行，而不是 macOS 终端。
+
 ```sh
 cargo build -p oscamp-cli
 cargo run -p oscamp-cli -- watch
