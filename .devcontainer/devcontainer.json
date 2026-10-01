@@ -1,5 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/rust:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "waitFor": "onCreateCommand",
   "onCreateCommand": ".devcontainer/setup.sh",
   "updateContentCommand": "cargo build -p oscamp-cli",
