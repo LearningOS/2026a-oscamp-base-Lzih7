@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-Lzih7",
-  "commit": "a299a7a8e000b65d0317c3906f53fc86f098e773",
-  "score": 72,
+  "commit": "88b7bda4d1ae497dda3e96c62aae42b9c4d3b4e7",
+  "score": 79,
   "totalScore": 100,
   "exercises": [
     {
@@ -121,16 +121,16 @@
     {
       "name": "basic_future",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "tokio_tasks",
       "max": 3,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 3,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "async_channel_ex",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "Lzih7",
-  "runId": "36666137694",
+  "runId": "36852885353",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
